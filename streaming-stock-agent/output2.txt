@@ -1,0 +1,46 @@
+Session: cli_session
+Query: Compare Apple and Tesla
+------------------------------------------------------------
+Here's a comparison of **Apple (AAPL)** and **Tesla (TSLA)** based on current and fundamental data (as of Yahoo Finance, with possible delays):
+
+---
+
+### **1. Current Stock Price**
+- **Apple (AAPL)**:  
+  - Current: $194.55  
+  - Previous Close: $194.89  
+  - Change: -$0.34 (-0.17%)  
+
+- **Tesla (TSLA)**:  
+  - Current: $257.00  
+  - Previous Close: $256.50  
+  - Change: +$0.50 (+0.19%)  
+
+---
+
+### **2. Company Fundamentals**
+- **Apple (AAPL)**:  
+  - Sector: **Technology**  
+  - Industry: **Consumer Electronics**  
+  - Market Cap: $2.93T  
+  - P/E Ratio: 29.35  
+
+- **Tesla (TSLA)**:  
+  - Sector: **Consumer Cyclical**  
+  - Industry: **Auto Manufacturers**  
+  - Market Cap: $770.79B  
+  - P/E Ratio: 64.81  
+
+---
+
+### **3. Key Differences**
+- **Apple** focuses on premium consumer electronics (iPhone, Mac) with recurring revenue (services).  
+- **Tesla** specializes in electric vehicles (Model 3/Y, S/X) and energy solutions.  
+
+---
+
+Would you like historical price trends, revenue comparisons, or additional metrics? Let me know! 🚀
+[Done]
+
+============================================================
+

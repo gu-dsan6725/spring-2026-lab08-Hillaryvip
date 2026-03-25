@@ -1,0 +1,47 @@
+Testing /ping endpoint...
+Status: 200
+Response: {'status': 'ok'}
+
+============================================================
+MULTI-TURN CONVERSATION TEST
+============================================================
+
+Session: test_session_123
+Query: What is the current price of Apple stock?
+------------------------------------------------------------
+The current price of Apple Inc. (AAPL) is **$251.64** USD. Key details:  
+- **Previous Close:** $251.49  
+- **Change:** +$0.15 (+0.06%)  
+- **Market State:** Post-Market  
+
+Data is delayed (as of 8:25 PM ET, March 24, 2026) and sourced from Yahoo Finance. Would you like insights into historical trends, company fundamentals, or comparative analysis with peers like Tesla?
+[Done]
+
+============================================================
+
+Session: test_session_123
+Query: How has it changed in the last 30 days?
+------------------------------------------------------------
+Apple Inc. (AAPL) stock has seen a **$14.54 (−5.46%)** decline over the last 30 days, closing at **$251.64** on March 24, 2026 (from **$266.18** on February 23, 2026). Key details include:  
+
+- **30-day low/high**: $246.00 / $276.11  
+- **Total volume**: ~1.22 billion shares traded in the period  
+- **Volatility index (Beta)**: 0.75 (lower volatility than the S&P 500)  
+
+The stock traded below its 200-day moving average ($258.00) during this window. Would you like:  
+1) A chart of the price trend?  
+2) Comparison with competitors like Microsoft or Amazon?  
+3) Analysis of earnings reports or market events influencing this movement?
+[Done]
+
+============================================================
+
+Session: test_session_123
+Query: What about Tesla?
+------------------------------------------------------------
+
+[Error: litellm.RateLimitError: RateLimitError: GroqException - {"error":{"message":"Rate limit reached for model `qwen/qwen3-32b` in organization `org_01kf4n4hscfgv880n2gec28asa` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 4519, Requested 2951. Please try again in 14.7s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+]
+
+============================================================
+
